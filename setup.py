@@ -20,7 +20,7 @@ setuptools.setup(
     ],
     install_requires=[
        'numpy>=1',
-       'pytorch>=1.7'
+       'pytorch'
     ],
     python_requires='>=3.6'
 )
