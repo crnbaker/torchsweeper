@@ -1,3 +1,3 @@
-from .decorators import Timer, Sweeper
+from .decorators import Timer, ParameterSweeper
 
 __all__ = ['Timer', 'Sweeper']
