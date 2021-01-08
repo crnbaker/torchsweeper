@@ -19,7 +19,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-       'numpy'
-    ]
+       'numpy>=1',
+       'pytorch>=1.7'
+    ],
     python_requires='>=3.6'
 )
