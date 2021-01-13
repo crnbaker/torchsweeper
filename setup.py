@@ -18,6 +18,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
-    install_requires=[numpy, pytorch]
+    install_requires=[
+       'numpy>=1',
+       'torch>=1.7'
+    ],
+    python_requires='>=3.6'
 )

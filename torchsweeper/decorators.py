@@ -2,6 +2,7 @@ import torch
 import time
 import numpy as np
 
+
 class Timer:
     def __init__(self, n_iterations, cuda=True):
         self.n_iterations = n_iterations
