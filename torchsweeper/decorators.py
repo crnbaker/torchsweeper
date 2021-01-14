@@ -76,7 +76,7 @@ class ParameterSweeper:
             func: The callable to be parameter swept.
         Returns:
             A new callable with the same functionality as ```func```, but which accepts lists of each of its input
-                arguments. ```func``` will be called with each of the input arguments lists in the lists. For example,
+                arguments. ```func``` will be called with each of the input arguments listed in the lists. For example,
                 to time the operation of ```np.add(1, 1)```, ```np.add(2, 2)``` and ```np.add(3, 3)``` you would first
                 make a ParameterSweeper object: ```sweeper = ParameterSweeper(n_iters)``` and then use like this:
                 ```sweeper.sweep(np.add)([1, 2, 3], [1, 2, 3])```. Any input arguments that are length 1 lists will be
